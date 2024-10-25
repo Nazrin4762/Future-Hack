@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results - UNSEARCH</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Search Results</h1>
+    <div class="results">
+        <h2>Query: <span id="queryText">{{ query }}</span></h2>
+        <h3>Results:</h3>
+        <div>
+            {% for result in results %}
+                <div class="result">
+                    <h3>{{ result.topic }}</h3>
+                    {% if result.image_url %}
+                        <img src="{{ result.image_url }}" alt="{{ result.topic }}">
+                    {% endif %}
+                    <p>{{ result.summary }}</p>
+                    <a href="{{ result.link }}" target="_blank">Read more</a>
+                </div>
+            {% else %}
+                <p>No results found for "{{ query }}".</p>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
