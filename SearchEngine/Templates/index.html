@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNSEARCH</title>
+</head>
+<body>
+    <h1>UNSEARCH</h1>
+    <form method="POST" action="/search">
+        <label for="query">Enter a word:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if results %}
+        <h2>Query: {{ query }}</h2>
+        <h3>Results:</h3>
+        <div>
+            {% for result in results %}
+                <div style="border:1px solid #ddd; padding: 15px; margin: 10px;">
+                    <h3>{{ result.topic }}</h3>
+                    {% if result.image_url %}
+                        <img src="{{ result.image_url }}" alt="{{ result.topic }}" style="max-width: 100px;">
+                    {% endif %}
+                    <p>{{ result.summary }}</p>
+                    <a href="{{ result.link }}" target="_blank">Read more</a>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</body>
+</html>
+
+
