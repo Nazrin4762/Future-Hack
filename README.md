@@ -1,39 +1,33 @@
 # Future-Hack
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# [UNSEARCH] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [FUTURE HACK]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Finan Ibnu Thajudheen] - [SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY]
+- Member 2: [Fathima Nazrin] - [SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY]
+- Member 3: [Fathima Nehrin] - [SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY]
 
 ### Project Description
-[2-3 lines about what your project does]
+A search engine that gives unrelated result. Instead of showing helpful links, it shows random or irrelevant information. As a result, you have to go through a lot of unrelated stuff to find what you actually want.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+To get unwanted solutions for problems
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+A search Engine website 
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [python,html,css]
+- [flask]
+- [vs code,github]
 
 ### Implementation
 For Software:
@@ -47,50 +41,22 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/18wKzZgM1Wg9pqpWQ4UgbTSq8cSylK-So/view?usp=drive_link
+first interface page
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1xuKjFXfuYKODemBPT16hRFWu2QXj-jLb/view?usp=drive_link
+second page for searching
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/12vTqAgC5itt50KMlmMeai6ZukmAjInAQ/view?usp=drive_link
+third page for result
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Finan]: [backend]
+- [Nazrin]: [frontend]
+- [Nehrin]: [backend]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
