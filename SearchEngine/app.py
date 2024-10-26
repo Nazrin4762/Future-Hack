@@ -5,7 +5,7 @@ import wikipediaapi
 
 app = Flask(__name__)
 
-# List of random topics for unrelated results
+# List of the random topics for unrelated results
 random_topics = [
     "ocean", "mountain", "cityscape", "astronomy", "wildlife",
     "architecture", "technology", "art", "history", "sports",
@@ -41,7 +41,7 @@ wiki = wikipediaapi.Wikipedia(
     user_agent="Unsearch/1.0 (https://yourwebsite.com; contact@example.com)"
 )
 
-# Function to get images from Unsplash based on a topic
+# Function to get the images from Unsplash based on a topic
 def get_image(topic):
     access_key = 'y_qPxDuIBajo0KxWstx0wK4RAJDoVghcAoG-k4rrQWo'  # Replace with your Unsplash API access key
     url = f"https://api.unsplash.com/search/photos?query={topic}&client_id={access_key}"
@@ -60,7 +60,7 @@ def get_wikipedia_summary(topic):
     try:
         page = wiki.page(topic)
         if page.exists():
-            return page.summary[:300], page.fullurl  # Return summary and link
+            return page.summary[:300], page.fullurl  # Return the summary and link
     except Exception as e:
         print(f"Error fetching Wikipedia summary for '{topic}': {e}")
     return None, None
